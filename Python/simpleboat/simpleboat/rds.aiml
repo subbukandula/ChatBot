@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="1.0.1">
+
+   <category>
+      <pattern>RDS RESOURCES</pattern>
+      <template>
+         Primary: Venkat, Secondary: Divya
+      </template>
+   </category>
+   <category><pattern>* RDS RESOURCES</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RDS RESOURCE</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RDS RESOURCE *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RDS RESOURCES *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* RDS RESOURCE *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* RDS RESOURCES *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RESOURCES FOR RDS</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* RESOURCES FOR RDS</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RESOURCES FOR RDS *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* RESOURCE FOR RDS</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RESOURCE FOR RDS *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* WORK FOR RDS</pattern><template><srai>RDS RESOURCES</srai></template></category>
+
+   <category>
+      <pattern>SSRDS SERVERS</pattern>
+      <template>
+         Development servers
+            APP servers: r3pvap1079,r3pvap1080
+            Web servers:
+         QA Servers
+      </template>
+   </category>
+
+</aiml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="1.0.1">
+
+   <category>
+      <pattern>STAR STATION DEV URL</pattern>   
+      <template>
+         https://google.com
+      </template>
+   </category>
+   <category><pattern>* STAR STATION DEV URL</pattern><template><srai>STAR STATION DEV URL</srai></template></category>
+   <category><pattern>* DEV URL FOR STAR STATION</pattern><template><srai>STAR STATION DEV URL</srai></template></category>
+   <category><pattern>DEV URL FOR STAR STATION</pattern><template><srai>STAR STATION DEV URL</srai></template></category>
+   
+</aiml>

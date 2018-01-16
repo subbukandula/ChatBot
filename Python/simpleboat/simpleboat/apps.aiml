@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="1.0.1">
+
+   <category>
+      <pattern>SS</pattern>   
+      <template>
+        There are a list of applications. 
+		    1. Report Delivery System 
+			2. Transaction Reporting and Metrics 
+			3. Exception Processing 
+			4. Executive View 
+			5. Card Management Authorization
+      </template>
+   </category>
+   <category><pattern>* STAR STATION APPS</pattern><template><srai>STAR STATION APPLICATIONS</srai></template></category>
+   <category><pattern>STAR STATION APPS</pattern><template><srai>STAR STATION APPLICATIONS</srai></template></category>
+   <category><pattern>* STAR STATION APPLICATIONS</pattern><template><srai>STAR STATION APPLICATIONS</srai></template></category>
+   <category><pattern>* SS APPS</pattern><template><srai>STAR STATION APPLICATIONS</srai></template></category>
+   
+   <category>
+      <pattern>*</pattern>   
+      <template>
+			Sorry, please search with correct pattern
+      </template>
+   </category>
+   
+</aiml>

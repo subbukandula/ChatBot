@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="1.0.1">
+
+   <category>
+      <pattern>HELLO</pattern>   
+      <template>
+         Heeeey! How can I help you?
+      </template>
+   </category>
+   <category><pattern>HI</pattern><template><srai>HELLO</srai></template></category>
+   <category><pattern>HEY THERE</pattern><template><srai>HELLO</srai></template></category>
+   
+   <category>
+      <pattern>GOOD MORNING</pattern>   
+      <template>
+         Good Morning!
+      </template>
+   </category>
+   <category><pattern>* GOOD MORNING</pattern><template><star index = "1"/> <srai>GOOD MORNING</srai></template></category>
+   <category><pattern>GOOD MORNING *</pattern><template><srai>GOOD MORNING</srai></template></category>
+   
+   <category>
+      <pattern>HOW ARE YOU</pattern>   
+      <template>
+         I don't know. I am a programmed chat bot
+      </template>
+   </category>
+   <category><pattern>HOW ARE YOU DOING</pattern><template><srai>HOW ARE YOU</srai></template></category>
+   <category><pattern>HOW DO YOU DO</pattern><template><srai>HOW ARE YOU</srai></template></category>
+   <category><pattern>HOW DO YOU DO *</pattern><template><srai>HOW ARE YOU</srai></template></category>
+   
+   <category>
+      <pattern>RDS RESOURCES</pattern>   
+      <template>
+         Primary: Venkat, Secondary: Divya
+      </template>
+   </category>
+   <category><pattern>* RDS RESOURCES</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RDS RESOURCE</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RDS RESOURCE *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RDS RESOURCES *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* RDS RESOURCE *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* RDS RESOURCES *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RESOURCES FOR RDS</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* RESOURCES FOR RDS</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RESOURCES FOR RDS *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>* RESOURCE FOR RDS</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   <category><pattern>RESOURCE FOR RDS *</pattern><template><srai>RDS RESOURCES</srai></template></category>
+   
+   <category>
+		<pattern>BYE</pattern>
+		<template>
+			<random>
+				<li>Bye! Talk to you next time then even if I might not remember</li>
+			</random>
+		</template>
+	</category>
+	<category><pattern>BYE *</pattern><template><srai>BYE</srai></template></category>
+	<category><pattern>* BYE</pattern><template><srai>BYE</srai></template></category>  
+   
+</aiml>
